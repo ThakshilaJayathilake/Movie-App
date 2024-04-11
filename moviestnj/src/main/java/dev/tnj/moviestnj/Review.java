@@ -15,4 +15,9 @@ public class Review {
     @Id
     private ObjectId id;
     private String body;
+
+//    as id is auto generated , cannot pass id
+    public Review(String body) {
+        this.body = body;
+    }
 }

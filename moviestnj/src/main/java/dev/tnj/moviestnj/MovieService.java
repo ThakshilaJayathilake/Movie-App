@@ -17,6 +17,7 @@ public class MovieService {
         return movieRepository.findAll();
     }
 
+//    Optional makes it may return null
     public Optional<Movie> singleMovie(String imdbId){
         return movieRepository.findMovieByImdbId(imdbId);
     }

@@ -20,10 +20,10 @@ public class Movie {
     private String imdbId;
     private String title;
     private String releaseDate;
-    private String trailerLinkD;
+    private String trailerLink;
     private String poster;
     private List<String> genres;
     private List<String> backdrops;
     @DocumentReference
-    private List<Review> reviewsIds;
+    private List<Review> reviewIds;
 }
